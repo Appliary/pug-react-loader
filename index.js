@@ -10,6 +10,5 @@ module.exports = function PugTemplate(source) {
     component: this.resource.slice(this.rootContext.length),
   }).replace('module.exports = ', 'export default ');
 
-  console.log(out);
   return out;
 };
