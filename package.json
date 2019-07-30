@@ -1,13 +1,18 @@
 {
   "name": "pug-react-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Loads pug as React components",
   "main": "index.js",
   "repository": "https://github.com/Appliary/pug-react-loader",
   "author": "Appliary",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "character-parser": "^1.2.2",
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.0",
+    "monocle": "^1.1.51",
+    "pug-lexer": "^2.0.0",
+    "pug-parser": "^2.0.0",
+    "react": "^16.8.6"
   }
 }
