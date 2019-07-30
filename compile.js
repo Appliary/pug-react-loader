@@ -27,6 +27,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 var parse = require('pug-parser');
 var lex = require('pug-lexer');
 var Compiler = require('./lib/compiler');
+var React = require('react');
 
 /**
  * Jade React compiler version.

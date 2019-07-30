@@ -1,6 +1,6 @@
 {
   "name": "pug-react-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Loads pug as React components",
   "main": "index.js",
   "repository": "https://github.com/Appliary/pug-react-loader",
