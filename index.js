@@ -7,5 +7,7 @@ module.exports = function PugTemplate(source) {
     filename: this.resource,
     component: this.resource.slice(this.rootContext.length),
   });
+
+  console.log(out);
   return out;
 };
