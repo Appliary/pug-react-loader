@@ -6,6 +6,5 @@ module.exports = function PugTemplate(source) {
     filename: this.resource,
     class: this.rawRequest,
   });
-  console.log(out);
   return out;
 };
