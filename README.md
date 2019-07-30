@@ -1,16 +1,10 @@
-## .babelrc
-```
-  "plugins": [
-    "transform-react-pug",
-    "transform-react-jsx"
-  ],
-```
+
 ## webpack.config.js
 ```
   module: {
     rules: [
       {
-        test: /\.pug$/,
+        test: /\.pug$|\.jade$/,
         use: ['babel-loader', 'pug-react-loader'],
       },
       ...
