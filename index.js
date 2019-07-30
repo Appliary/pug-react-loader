@@ -1,7 +1,11 @@
-const fs = require('fs');
-const Inject = fs.readFileSync(`${__dirname}/inject.js`).toString();
+const PRC = require('./compile');
 
 module.exports = function PugTemplate(source) {
-  return Inject
-    .replace('%', source);
+  let out = 'const React = require(\'react\');\n';
+  out += PRC.compileClient(source, {
+    filename: this.resource,
+    class: this.rawRequest,
+  });
+  console.log(out);
+  return out;
 };
